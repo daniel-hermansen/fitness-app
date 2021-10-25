@@ -1,0 +1,110 @@
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+#quick-start {
+    margin-top: .5%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.75em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+section h4 {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 2.5px 2.5px lightgray;
+    padding: .5%
+}
+
+section {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#workout-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+#workout-title button {
+    color: ivory;
+    background-color: indianred;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#workout-title p {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.workout-card {
+    padding-left: .75%;
+    border: 3px solid gray;
+    border-radius: 15px;
+    box-shadow: 5px 5px lightgray;
+}
+
+#todays-exercise-list {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+#todays-exercise-list li {
+    font-size: 1.1em;
+}
+
+#myworkout-cards {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.myworkout-card {
+    padding: 1%;
+    border: 3px solid gray;
+    border-radius: 15px;
+    box-shadow: 5px 5px lightgray;
+}
+
+.myworkout-card p {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.myworkout-card li {
+    font-size: 1.1em;
+}
+
+#bottom-cards {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.card-links {
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 4%;
+    border: 3px solid gray;
+    border-radius: 15px;
+    box-shadow: 5px 5px lightgray;
+}
